@@ -321,7 +321,7 @@ Section #6: Additional steps:
 	(go to Google in Apps then scroll down to Modify system settings and checge to NO)
 
 4. Install the following:
-Program			  Author
+Program			      Author
 ---------------------------------------------
 a. Root Checker --------------joeykrim
 b. Reboot (no ads) -----------AppClick MKS
