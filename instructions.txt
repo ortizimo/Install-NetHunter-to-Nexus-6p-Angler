@@ -290,7 +290,7 @@ YOU NEED TO MAKE SURE YOU DOWNLOAD THE CORRECT 2 FILES ABOVE OR YOU'LL BRICK YOU
 --------------------------------------------------------------
 Section #4: Nethunter Setup
 --------------------------------------------------------------
-1. Move all new icons from App Drawer to the main scren
+1. Move all new icons from App Drawer to the main screen
 2. Run Nethunter and allow everything
 3. Grant root to Nethunt when SuperSU asks
 
