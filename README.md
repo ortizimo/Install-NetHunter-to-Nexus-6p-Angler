@@ -4,4 +4,4 @@
 # 2. nethunter-generic-arm64-kalifs-full-rolling-[VERSION].zip (Kali FS)
 # 3. kernel-nethunter-angler-nougat-[VERSION].zip (Kernel)
 
-# If you decide not to downgrade then you need to find the correct files for that version. Use the links in the steps to get more files and instructions.
+If you decide not to downgrade then you need to find the correct files for that version. Use the links in the steps to get more files and instructions.
