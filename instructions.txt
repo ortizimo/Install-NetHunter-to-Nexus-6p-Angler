@@ -1,0 +1,333 @@
+********************************************************
+Installing Kali Nethunter in Nexus 6P (Angler) - Step #0
+********************************************************
+Author: Saulo Ortiz
+Date: (20180511)
+Updated: (20180512)
+Websites used in this step:
+	https://developers.google.com/android/images#angler
+
+*NOTE 1: As of this writing, Kali Nethunter is compatible with image 7.1.1 Nougat
+**NOTE 2: I got my phone into an animation bootloop and downgrading from Oreo to Nougat it was the only way to get it back to normal
+***NOTE: All required files are included in the zip...steps reflect what I did in the process
+
+IMPORTANT!
+YOU'LL NEED TO UNLOCK THE BOOTLOADER FIRST...CHECK STEP #1 DOCUMENT FOR:
+	A. SYSTEM SETUP...SECTION #1
+	b. UNLOCK THE BOOTLOADER...SECTION #2
+	c. RETURN HERE FOR THE DOWNGRADE PORTION
+
+--------------------------------------------------------------
+Section #0: Downgrade from Oreo (8.1.0) to Nougat (7.1.1)
+--------------------------------------------------------------
+1. Google for nexus factory images
+
+2. In website, on right side menu select "angler" for Nexus 6P
+
+3. Select last available version of 7.1.1
+
+4. Place downloaded image file in c:\adb and UNZIP TO ITS FOLDER!!!
+
+5. Connect phone to computer
+
+6. Set phone to Developer Mode:
+	a. Go to Settings
+	b. Go to System
+	c. Go to About phone
+	d. Tap Build number 7 times
+		(Your in Developer Mode!!!!)
+
+7. Tap back, then tap {} Developer options
+
+8. Enable:
+	a. Stay awake
+	b. OEM unlocking
+	c. USB debugging
+
+9. Exit {} Developer mode then exit Settings
+
+10. While in c:\adb press and hold Shift key + Right click
+
+11. From menu select Open command window from here
+
+12a. In cmd prompt type: adb devices
+	(serial number is displayed...if not, close cmd prompt and try again)
+	(may need to put it into Bootloader manually then connect to the computer to get drivers to recognize phone)
+
+12b. Manual Bootloader mode
+	a. Turn off phone...wait 2 seconds
+	b. Press and hold Volume Down button + Power button
+		(you're in Bootloader mode)
+
+13. Close cmd prompt
+
+14. Go to c:\adb where image folder is and double click flash-all.bat file
+	(flash-all.sh is for Linux)
+	(flash-base.sh is for Mac)
+
+15. Wait for it to flash (downgrade)...this will take up to 10 minutes
+	(phone reboots)
+
+16. Setup phone as if was new
+
+17. Go to Settings and scroll to About phone to confirm 7.1.1
+
+/////BREAK/////BREAK/////BREAK/////BREAK/////BREAK/////BREAK/////
+
+********************************************************
+Installing Kali Nethunter in Nexus 6P (Angler) - Step #1
+********************************************************
+Author: Saulo Ortiz
+Date: (20180511)
+Updated: (20180512)
+
+Websites used in this step:
+	https://rootmygalaxy.net/downgrade-android-oreo-android-nougat/
+	https://www.androidcentral.com/how-unlock-nexus-6p-bootloader
+
+*NOTE 1: If you have any android version above 7.1.1 STOP and go to Step#0 to Downgrade to Nougat
+**NOTE: All required files are included in the zip...steps reflect what I did in the process
+
+--------------------------------------------------------------
+Section #1: Initial Setup
+--------------------------------------------------------------
+1. Download latest OracleVirtualbox (free) or VMWare Workstation
+
+2. Install VM software and create a Windows 7 VM to prevent damage/infection to main system
+	a. Have 2GB ram...4GB recommended
+	b. 128MB video with 3D and 2D if possible
+	c. NAT to host or Bridge if router is not using ACL or if MAC was added to pool
+
+3. Log into Win7VM and install Mozilla Firefox
+
+4. Download and install:
+	a. adb-setup-1.4.3
+	b. UniversalAdbDriverSetup
+
+5. Set phone to Developer Mode:
+	a. Go to Settings
+	b. Go to About phone
+	c. Tap Build number 7 times
+		(Your in Developer Mode!!!!)
+
+6. Tap back,then tap {} Developer options
+
+7a. Enable:
+	a. Stay awake
+	b. OEM unlocking
+	c. USB debugging
+	d. Select USB Configuration (MTP)...usually set by default
+
+7b. Disable:
+	a. Automatic system updates
+	b. Verify apps over USB
+
+8. Exit {} Developer mode
+
+9. Scroll up and tap Display
+
+10. Change Sleep to 5 minutes
+
+11. Exit to main screen
+
+--------------------------------------------------------------
+Section #2: Unlock Bootloader
+--------------------------------------------------------------
+1. Go into c:\adb folder
+
+2. Hold down Shift and Right click
+
+3. Select Open command line window from here
+	(cmd prompt opens)
+
+4. Connect phone to computer...(may or maynot display/be required...only saw it under 8.1.0)
+	(Accept RSA key fingerprint prompt)
+
+5. Type:
+	a.adb devices
+		(you may not get serial number from phone if phone was already connected)
+
+	b. adb reboot bootload
+		(phone reboots into bootloader mode)
+
+6. Check Device is LOCKED
+		(if UNLOCKED, then go to #9 below)
+
+7. Type: fastboot devices
+	(you'll see a serial number and the word fastboot)
+
+8. Type: fastboot flashing unlocked
+	(THIS WILL RESET THE PHONE TO FACTORY MODE...YOU WILL LOSE ALL DATA!!!)
+
+9. Setup phone as it was new then go to Step #2 folder
+
+/////BREAK/////BREAK/////BREAK/////BREAK/////BREAK/////BREAK/////
+
+********************************************************
+Installing Kali Nethunter in Nexus 6P (Angler) - Step #2
+********************************************************
+Author: Saulo Ortiz
+Date: (20180511)
+Updated: (20180512)
+
+Websites used in this step:
+	https://android.gadgethacks.com/how-to/root-android-oreo-nexus-5x-6p-0176736/
+	https://download.chainfire.eu/1122/SuperSU/SR3-SuperSU-v2.82-SR3-20170813133244.zip
+	https://www.reddit.com/r/zenfone2/comments/3f0t7z/trying_to_flash_twrpsuccessful_but_cant_boot_into/
+	https:/www.youtube.com/wawtch?v=5ucIwt9cPiE
+	https://dl.twrp.me/angler/twrp-3.2.1-0-angler.img.html
+
+*NOTE: All required files are included in the zip...steps reflect what I did in the process
+
+--------------------------------------------------------------
+Step #2a: Root the Phone
+--------------------------------------------------------------
+1. Reboot phone
+
+2. Add the phone MAC address to your router
+	(may need to add more IPs in pool if using ACL)
+
+On phone:
+
+3. Download Root Checker from Play Store
+
+4. Download SuperSu from (chainfire.eu) website above
+	(goes into the Downloads folder)
+
+In computer:
+
+5. Download and copy twrp-3.2.1-0-angler.img to c:\adb
+
+6. Connect phone to computer
+
+7. Open c:\adb then hold down Shift and Right click
+
+8. Select Open command window from here
+
+9a. Type: adb devices
+	(serial number is displayed..if not then try again
+		(or do Bootloader manually)
+
+9b. Manual Bootloader mode:
+	a. Turn off phone...wait 2 seconds
+	b. Press Volume Down button + Power button
+	c. Go to step #11
+
+10. Type: adb reboot bootloader to put phone in Bootloader mode
+
+11. Type: fastboot devices
+	(serial number is displayed)
+
+12. Type: fastboot flash recovery twrp-3.2.1-0-angler.img
+
+13. On the phone, scroll using the volume buttons to Recovery mode
+
+14. Press power button to select it
+	(after some seconds phone boots up to TWRP)
+
+15. Swipe to enter TWRP
+
+16. Tap on Install
+
+17. Go to the Downloads folder
+
+18. Tap on SuperSu .zip file then swipe to confirm flash
+	(SuperSu installs)
+
+19. Tap on Wipe chache/dalvik and swipe to wipe cache
+
+20. Tap on Reboot and swipe to accept
+	(leave defaults...phone reboots...may reboot twice...don't touch it)
+
+21. Go to App Drawer and check for SuperSu icon...move it to the main screen
+
+22. Run Root Checker to verify if phone is rooted...congrats!
+
+/////BREAK/////BREAK/////BREAK/////BREAK/////BREAK/////BREAK/////
+
+********************************************************
+Installing Kali Nethunter in Nexus 6P (Angler) - Step #3
+********************************************************
+Author: Saulo Ortiz
+Date: (20180511)
+Updated: (20180513)
+
+Websites used in this step:
+	https://build.nethunter.com/nightly/
+	https://forum.xda-developers.com/nexus-6p/general/kernel-kali-nethunter-huawei-nexus-6p-t3539084
+	https://github.com/offensive-security/kali-nethunter/issues/706
+	https://github.com/offensive-security/kali-nethunter/wiki
+	https://github.com/offensive-security/kali-nethunter/wiki#60-kali-nethunter-attacks-and-features
+	https://github.com/offensive-security/kali-nethunter
+
+*NOTE: All required files are included in the zip...steps reflect what I did in the process
+
+--------------------------------------------------------------
+Section #3: Installing Kali Nethunter
+--------------------------------------------------------------
+7. Using your phone, download the latest 2 files from (build.nethunter.com):
+    a. nethunter-generic-arm64-kalifs-full-rolling-[VERSION].zip (Kali FS)
+    b. kernel-nethunter-angler-nougat-[VERSION].zip (Kernel)
+
+IMPORTANT!
+YOU NEED TO MAKE SURE YOU DOWNLOAD THE CORRECT 2 FILES ABOVE OR YOU'LL BRICK YOUR PHONE!!!!
+
+8. Reboot to Bootloader, then select Recovery mode
+	(you're in TWRP)
+
+9. Tap Install, then go to the Downloads folder
+
+10. Select nethunter-generic...and install it
+	(it may take 25 minutes to complete!)
+	(do not reboot after its done!)
+
+11. Select kernel-nethunter...and install it
+
+12. Swipe to wipe cache, then tap Reboot
+
+13. Check App Drawer for new programs
+
+--------------------------------------------------------------
+Section #4: Nethunter Setup
+--------------------------------------------------------------
+1. Move all new icons from App Drawer to the main scren
+2. Run Nethunter and allow everything
+3. Grant root to Nethunt when SuperSU asks
+
+--------------------------------------------------------------
+Section #5: Fix NetHunter Terminal Crash
+--------------------------------------------------------------
+1. If NetHunter Terminal crashes then...
+	a. Download and run Termux
+	b. type: su
+	c. type bootkali
+	d. Run NetHunter Terminal
+
+*During that session NetHunter terminal will run until you reboot...then you have to do these steps again
+
+2. May have something to do with BusyBox installed over the BusyBox that comes with NetHunter
+	a. Install everything to /system/xbin
+	b. Check the box of everything unchecked
+
+--------------------------------------------------------------
+Section #6: Additional steps:
+--------------------------------------------------------------
+1. Do a recovery backup of the current state using TWRP
+
+2. Install FX File Explorer from Play Store
+	(To move your recovery file to the computer)
+
+3. Go to Settings > Apps and DISABLE and FORCE STOP all applications you don't want
+	(go to Google in Apps then scroll down to Modify system settings and checge to NO)
+
+4. Install the following:
+Program				Author
+---------------------------------------------
+a. Root Checker			joeykrim
+b. Reboot (no ads)				AppClick MKS
+c. FX File Explorer (no ads)				NextApp Inc
+d. System App Remover (root)			Jumobile
+e. Blank Widget										Chislon Chow
+f. Termux													Fredrik Fornwall
+g. BusyBox												Stephen (Stericson)
+h. Device Control									Alexander Martinz
