@@ -1,9 +1,11 @@
 ********************************************************
+Straightforward Training™
 Installing Kali Nethunter in Nexus 6P (Angler) - Step #0
+Author: Saulo S. Ortiz
+Date: 20180511
+Updated: 20180512
 ********************************************************
-Author: Saulo Ortiz
-Date: (20180511)
-Updated: (20180512)
+
 Websites used in this step:
 	https://developers.google.com/android/images#angler
 
@@ -331,3 +333,4 @@ e. Blank Widget --------------Chislon Chow
 f. Termux --------------------Fredrik Fornwall
 g. BusyBox -------------------Stephen (Stericson)
 h. Device Control ------------Alexander Martinz
+
