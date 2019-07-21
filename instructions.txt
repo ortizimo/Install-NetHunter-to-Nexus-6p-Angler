@@ -1,6 +1,6 @@
 ********************************************************
 Straightforward Training™
-Installing Kali Nethunter in Nexus 6P (Angler) - Step #0
+Installing Kali Nethunter in Nexus 6P (Angler)
 Author: Saulo S. Ortiz
 Date: 20180511
 Updated: 20190721
@@ -20,9 +20,10 @@ YOU'LL NEED TO UNLOCK THE BOOTLOADER FIRST...CHECK STEP #1 DOCUMENT FOR:
 	b. UNLOCK THE BOOTLOADER...SECTION #2
 	c. RETURN HERE FOR THE DOWNGRADE PORTION
 
---------------------------------------------------------------
-Section #0: Downgrade from Oreo (8.1.0) to Nougat (7.1.1)
---------------------------------------------------------------
+
+********************************************************
+Downgrade from Oreo (8.1.0) to Nougat (7.1.1) - Step #0
+********************************************************
 1. Google for nexus factory images
 
 2. In website, on right side menu select "angler" for Nexus 6P
@@ -76,6 +77,7 @@ Section #0: Downgrade from Oreo (8.1.0) to Nougat (7.1.1)
 17. Go to Settings and scroll to About phone to confirm 7.1.1
 
 /////BREAK/////BREAK/////BREAK/////BREAK/////BREAK/////BREAK/////
+
 
 ********************************************************
 Installing Kali Nethunter in Nexus 6P (Angler) - Step #1
@@ -166,6 +168,7 @@ Section #1.1: Unlock Bootloader
 
 /////BREAK/////BREAK/////BREAK/////BREAK/////BREAK/////BREAK/////
 
+
 ********************************************************
 Installing Kali Nethunter in Nexus 6P (Angler) - Step #2
 ********************************************************
@@ -247,6 +250,7 @@ In computer:
 22. Run Root Checker to verify if phone is rooted...congrats!
 
 /////BREAK/////BREAK/////BREAK/////BREAK/////BREAK/////BREAK/////
+
 
 ********************************************************
 Installing Kali Nethunter in Nexus 6P (Angler) - Step #3
