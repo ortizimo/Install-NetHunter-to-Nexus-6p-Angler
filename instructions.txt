@@ -16,8 +16,8 @@ normal
 
 IMPORTANT!
 YOU'LL NEED TO UNLOCK THE BOOTLOADER FIRST...CHECK STEP #1 DOCUMENT FOR:
-	A. SYSTEM SETUP...SECTION #1
-	b. UNLOCK THE BOOTLOADER...SECTION #2
+	a. SYSTEM SETUP...SECTION #1.0
+	b. UNLOCK THE BOOTLOADER...SECTION #1.1
 	c. RETURN HERE FOR THE DOWNGRADE PORTION
 
 
@@ -91,7 +91,7 @@ Websites used in this step:
 **NOTE: All required files are included in the zip...steps reflect what I did in the process
 
 --------------------------------------------------------------
-Section #1: Initial Setup
+Section #1.0: Initial Setup
 --------------------------------------------------------------
 1. Download latest OracleVirtualbox (free) or VMWare Workstation
 
