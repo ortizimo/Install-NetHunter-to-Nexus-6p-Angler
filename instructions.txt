@@ -84,10 +84,10 @@ Installing Kali Nethunter in Nexus 6P (Angler) - Step #1
 Updated: 20180512
 ********************************************************
 Websites used in this step:
-	https://rootmygalaxy.net/downgrade-android-oreo-android-nougat/
-	https://www.androidcentral.com/how-unlock-nexus-6p-bootloader
 	https://developer.android.com/studio
 	https://adb.clockworkmod.com/
+	https://rootmygalaxy.net/downgrade-android-oreo-android-nougat/
+	https://www.androidcentral.com/how-unlock-nexus-6p-bootloader
 
 *NOTE 1: If you have any android version above 7.1.1 STOP and go to Step#0 to Downgrade to Nougat
 **NOTE: All required files are included in the zip...steps reflect what I did in the process
