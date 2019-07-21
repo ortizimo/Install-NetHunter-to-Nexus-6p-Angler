@@ -76,8 +76,6 @@ Downgrade from Oreo (8.1.0) to Nougat (7.1.1) - Step #0
 
 17. Go to Settings and scroll to About phone to confirm 7.1.1
 
-/////BREAK/////BREAK/////BREAK/////BREAK/////BREAK/////BREAK/////
-
 
 ********************************************************
 Installing Kali Nethunter in Nexus 6P (Angler) - Step #1
@@ -165,8 +163,6 @@ Section #1.1: Unlock Bootloader
 
 9. Setup phone as it was new then go to Step #2 folder
 
-/////BREAK/////BREAK/////BREAK/////BREAK/////BREAK/////BREAK/////
-
 
 ********************************************************
 Installing Kali Nethunter in Nexus 6P (Angler) - Step #2
@@ -244,8 +240,6 @@ In computer:
 21. Go to App Drawer and check for SuperSu icon...move it to the main screen
 
 22. Run Root Checker to verify if phone is rooted...congrats!
-
-/////BREAK/////BREAK/////BREAK/////BREAK/////BREAK/////BREAK/////
 
 
 ********************************************************
