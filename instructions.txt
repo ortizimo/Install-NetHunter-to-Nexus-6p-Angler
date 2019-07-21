@@ -81,8 +81,8 @@ Section #0: Downgrade from Oreo (8.1.0) to Nougat (7.1.1)
 Installing Kali Nethunter in Nexus 6P (Angler) - Step #1
 ********************************************************
 Author: Saulo Ortiz
-Date: (20180511)
-Updated: (20180512)
+Date: 20180511
+Updated: 20180512
 
 Websites used in this step:
 	https://rootmygalaxy.net/downgrade-android-oreo-android-nougat/
@@ -94,6 +94,10 @@ Websites used in this step:
 --------------------------------------------------------------
 Section #1: Initial Setup
 --------------------------------------------------------------
+Author: Saulo Ortiz
+Date: 20180511
+Updated: 20180512
+
 1. Download latest OracleVirtualbox (free) or VMWare Workstation
 
 2. Install VM software and create a Windows 7 VM to prevent damage/infection to main system
@@ -136,6 +140,10 @@ Section #1: Initial Setup
 --------------------------------------------------------------
 Section #2: Unlock Bootloader
 --------------------------------------------------------------
+Author: Saulo Ortiz
+Date: 20180511
+Updated: 20180512
+
 1. Go into c:\adb folder
 
 2. Hold down Shift and Right click
@@ -170,8 +178,8 @@ Section #2: Unlock Bootloader
 Installing Kali Nethunter in Nexus 6P (Angler) - Step #2
 ********************************************************
 Author: Saulo Ortiz
-Date: (20180511)
-Updated: (20180512)
+Date: 20180511
+Updated: 20180512
 
 Websites used in this step:
 	https://android.gadgethacks.com/how-to/root-android-oreo-nexus-5x-6p-0176736/
@@ -185,6 +193,10 @@ Websites used in this step:
 --------------------------------------------------------------
 Step #2a: Root the Phone
 --------------------------------------------------------------
+Author: Saulo Ortiz
+Date: 20180511
+Updated: 20180512
+
 1. Reboot phone
 
 2. Add the phone MAC address to your router
@@ -252,8 +264,8 @@ In computer:
 Installing Kali Nethunter in Nexus 6P (Angler) - Step #3
 ********************************************************
 Author: Saulo Ortiz
-Date: (20180511)
-Updated: (20180513)
+Date: 20180511
+Updated: 20180513
 
 Websites used in this step:
 	https://build.nethunter.com/nightly/
@@ -268,6 +280,10 @@ Websites used in this step:
 --------------------------------------------------------------
 Section #3: Installing Kali Nethunter
 --------------------------------------------------------------
+Author: Saulo Ortiz
+Date: 20180511
+Updated: 20180512
+
 7. Using your phone, download the latest 2 files from (build.nethunter.com):
     a. nethunter-generic-arm64-kalifs-full-rolling-[VERSION].zip (Kali FS)
     b. kernel-nethunter-angler-nougat-[VERSION].zip (Kernel)
@@ -293,6 +309,10 @@ YOU NEED TO MAKE SURE YOU DOWNLOAD THE CORRECT 2 FILES ABOVE OR YOU'LL BRICK YOU
 --------------------------------------------------------------
 Section #4: Nethunter Setup
 --------------------------------------------------------------
+Author: Saulo Ortiz
+Date: 20180511
+Updated: 20180512
+
 1. Move all new icons from App Drawer to the main screen
 2. Run Nethunter and allow everything
 3. Grant root to Nethunt when SuperSU asks
@@ -315,6 +335,10 @@ Section #5: Fix NetHunter Terminal Crash
 --------------------------------------------------------------
 Section #6: Additional steps:
 --------------------------------------------------------------
+Author: Saulo Ortiz
+Date: 20180511
+Updated: 20190721
+
 1. Do a recovery backup of the current state using TWRP
 
 2. Install FX File Explorer from Play Store
@@ -323,7 +347,7 @@ Section #6: Additional steps:
 3. Go to Settings > Apps and DISABLE and FORCE STOP all applications you don't want
 	(go to Google in Apps then scroll down to Modify system settings and checge to NO)
 
-4. In the Nexus, install the following:
+4. Install the following in the Nexus:
 Program			      Author
 ---------------------------------------------
 a. Root Checker --------------joeykrim
