@@ -328,13 +328,13 @@ Section #3.4: Additional steps:
 	(go to Google in Apps then scroll down to Modify system settings and checge to NO)
 
 4. Install the following in the Nexus:
-Program			      Author
+Program			         Author
 ---------------------------------------------
-a. Root Checker --------------joeykrim
-b. Reboot (no ads) -----------AppClick MKS
-c. FX File Explorer (no ads) -NextApp Inc
-d. System App Remover (root) -Jumobile
-e. Blank Widget --------------Chislon Chow
-f. Termux --------------------Fredrik Fornwall
-g. BusyBox -------------------Stephen (Stericson)
-h. Device Control ------------Alexander Martinz
+a. Root Checker ----------------joeykrim
+b. Reboot (no ads) -------------AppClick MKS
+c. FX File Explorer (no ads) ---NextApp Inc
+d. System App Remover (root) ---Jumobile
+e. Blank Widget ----------------Chislon Chow
+f. Termux ----------------------Fredrik Fornwall
+g. BusyBox ---------------------Stephen (Stericson)
+h. Device Control --------------Alexander Martinz
