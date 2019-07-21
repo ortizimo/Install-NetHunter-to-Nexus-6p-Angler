@@ -81,10 +81,8 @@ Downgrade from Oreo (8.1.0) to Nougat (7.1.1) - Step #0
 
 ********************************************************
 Installing Kali Nethunter in Nexus 6P (Angler) - Step #1
-********************************************************
-Date: 20180511
 Updated: 20180512
-
+********************************************************
 Websites used in this step:
 	https://rootmygalaxy.net/downgrade-android-oreo-android-nougat/
 	https://www.androidcentral.com/how-unlock-nexus-6p-bootloader
@@ -170,10 +168,8 @@ Section #1.1: Unlock Bootloader
 
 ********************************************************
 Installing Kali Nethunter in Nexus 6P (Angler) - Step #2
-********************************************************
-Date: 20180511
 Updated: 20180512
-
+********************************************************
 Websites used in this step:
 	https://android.gadgethacks.com/how-to/root-android-oreo-nexus-5x-6p-0176736/
 	https://download.chainfire.eu/1122/SuperSU/SR3-SuperSU-v2.82-SR3-20170813133244.zip
@@ -252,10 +248,8 @@ In computer:
 
 ********************************************************
 Installing Kali Nethunter in Nexus 6P (Angler) - Step #3
-********************************************************
-Date: 20180511
 Updated: 20190721
-
+********************************************************
 Websites used in this step:
 	https://build.nethunter.com/nightly/
 	https://forum.xda-developers.com/nexus-6p/general/kernel-kali-nethunter-huawei-nexus-6p-t3539084
