@@ -1,16 +1,17 @@
 ********************************************************
-Straightforward Training™
+Straightforward Trainingï¿½
 Installing Kali Nethunter in Nexus 6P (Angler) - Step #0
 Author: Saulo S. Ortiz
 Date: 20180511
-Updated: 20180512
+Updated: 20190721
 ********************************************************
 
 Websites used in this step:
 	https://developers.google.com/android/images#angler
 
 *NOTE 1: As of this writing, Kali Nethunter is compatible with image 7.1.1 Nougat
-**NOTE 2: I got my phone into an animation bootloop and downgrading from Oreo to Nougat it was the only way to get it back to normal
+**NOTE 2: I got my phone into an animation bootloop and downgrading from Oreo to Nougat it was the only way to get it back to
+normal
 ***NOTE: All required files are included in the zip...steps reflect what I did in the process
 
 IMPORTANT!
@@ -28,7 +29,7 @@ Section #0: Downgrade from Oreo (8.1.0) to Nougat (7.1.1)
 
 3. Select last available version of 7.1.1
 
-4. Place downloaded image file in c:\adb and UNZIP TO ITS FOLDER!!!
+4. Create a folder named c:\adb and place the downloaded image in it then UNZIP TO ITS ON FOLDER!!!
 
 5. Connect phone to computer
 
@@ -322,7 +323,7 @@ Section #6: Additional steps:
 3. Go to Settings > Apps and DISABLE and FORCE STOP all applications you don't want
 	(go to Google in Apps then scroll down to Modify system settings and checge to NO)
 
-4. Install the following:
+4. In the Nexus, install the following:
 Program			      Author
 ---------------------------------------------
 a. Root Checker --------------joeykrim
@@ -333,4 +334,3 @@ e. Blank Widget --------------Chislon Chow
 f. Termux --------------------Fredrik Fornwall
 g. BusyBox -------------------Stephen (Stericson)
 h. Device Control ------------Alexander Martinz
-
