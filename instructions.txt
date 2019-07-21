@@ -94,10 +94,6 @@ Websites used in this step:
 --------------------------------------------------------------
 Section #1: Initial Setup
 --------------------------------------------------------------
-Author: Saulo Ortiz
-Date: 20180511
-Updated: 20180512
-
 1. Download latest OracleVirtualbox (free) or VMWare Workstation
 
 2. Install VM software and create a Windows 7 VM to prevent damage/infection to main system
@@ -138,12 +134,8 @@ Updated: 20180512
 11. Exit to main screen
 
 --------------------------------------------------------------
-Section #2: Unlock Bootloader
+Section #1.1: Unlock Bootloader
 --------------------------------------------------------------
-Author: Saulo Ortiz
-Date: 20180511
-Updated: 20180512
-
 1. Go into c:\adb folder
 
 2. Hold down Shift and Right click
@@ -191,12 +183,8 @@ Websites used in this step:
 *NOTE: All required files are included in the zip...steps reflect what I did in the process
 
 --------------------------------------------------------------
-Step #2a: Root the Phone
+Step #2.1: Root the Phone
 --------------------------------------------------------------
-Author: Saulo Ortiz
-Date: 20180511
-Updated: 20180512
-
 1. Reboot phone
 
 2. Add the phone MAC address to your router
@@ -278,12 +266,8 @@ Websites used in this step:
 *NOTE: All required files are included in the zip...steps reflect what I did in the process
 
 --------------------------------------------------------------
-Section #3: Installing Kali Nethunter
+Section #3.1: Installing Kali Nethunter
 --------------------------------------------------------------
-Author: Saulo Ortiz
-Date: 20180511
-Updated: 20180512
-
 7. Using your phone, download the latest 2 files from (build.nethunter.com):
     a. nethunter-generic-arm64-kalifs-full-rolling-[VERSION].zip (Kali FS)
     b. kernel-nethunter-angler-nougat-[VERSION].zip (Kernel)
@@ -307,18 +291,14 @@ YOU NEED TO MAKE SURE YOU DOWNLOAD THE CORRECT 2 FILES ABOVE OR YOU'LL BRICK YOU
 13. Check App Drawer for new programs
 
 --------------------------------------------------------------
-Section #4: Nethunter Setup
+Section #3.2: Nethunter Setup
 --------------------------------------------------------------
-Author: Saulo Ortiz
-Date: 20180511
-Updated: 20180512
-
 1. Move all new icons from App Drawer to the main screen
 2. Run Nethunter and allow everything
 3. Grant root to Nethunt when SuperSU asks
 
 --------------------------------------------------------------
-Section #5: Fix NetHunter Terminal Crash
+Section #3.3: Fix NetHunter Terminal Crash
 --------------------------------------------------------------
 1. If NetHunter Terminal crashes then...
 	a. Download and run Termux
@@ -333,12 +313,8 @@ Section #5: Fix NetHunter Terminal Crash
 	b. Check the box of everything unchecked
 
 --------------------------------------------------------------
-Section #6: Additional steps:
+Section #3.4: Additional steps:
 --------------------------------------------------------------
-Author: Saulo Ortiz
-Date: 20180511
-Updated: 20190721
-
 1. Do a recovery backup of the current state using TWRP
 
 2. Install FX File Explorer from Play Store
